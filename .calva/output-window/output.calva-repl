@@ -1,0 +1,137 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "nbb" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\arana\Documents\games-made\canvas-shooter-up & npx.cmd nbb nrepl-server :port 58041 & popd
+; Using host:port 127.0.0.1:58041 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+#object[Ir test]
+cljs꞉test꞉> 
+#'test/balls
+cljs꞉test꞉> 
+; Could not resolve symbol: ligma
+cljs꞉test꞉> 
+#'test/balls
+cljs꞉test꞉> 
+#'test/ligma
+cljs꞉test꞉> 
+[100 200]
+cljs꞉test꞉> 
+#'test/balls
+cljs꞉test꞉> 
+[200 100]
+cljs꞉test꞉> 
+(2 2 2 2 2 2 2 2)
+cljs꞉game.app꞉> 
+[(2 2 2 2 2 2 2 2)]
+cljs꞉test꞉> 
+[2 2 2 2 2 2 2 2]
+cljs꞉test꞉> 
+[{:a 100, :b 200}
+ {:a 100, :b 200} 
+ {:a 100, :b 200} 
+ {:a 100, :b 200} 
+ {:a 100, :b 200} 
+ {:a 100, :b 200} 
+ {:a 100, :b 200} 
+ {:a 100, :b 200}]
+cljs꞉test꞉> 
+[#object[P] [1 2] [3 4]]
+cljs꞉game.app꞉> 
+[#object[ln] [1 2] [3 4]]
+cljs꞉test꞉> 
+(1 2 3 4)
+cljs꞉test꞉> 
+#'game.app/concatv
+cljs꞉game.app꞉> 
+; Could not resolve symbol: concatv
+cljs꞉test꞉> 
+#'test/concatv
+cljs꞉test꞉> 
+[1 2 3 4]
+cljs꞉test꞉> 
+{}
+cljs꞉game.app꞉> 
+; Could not resolve symbol: c
+cljs꞉game.app꞉> 
+#'test/build-particle
+cljs꞉test꞉> 
+{:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+cljs꞉test꞉> 
+0.5301330480708402
+cljs꞉game.app꞉> 
+0.44374028271404886
+cljs꞉test꞉> 
+(-0.00426300421373349
+ -0.00426300421373349
+ -0.00426300421373349
+ -0.00426300421373349 
+ -0.00426300421373349 
+ -0.00426300421373349 
+ -0.00426300421373349 
+ -0.00426300421373349)
+cljs꞉test꞉> 
+; a.call is not a function
+cljs꞉test꞉> 
+(0.02218337498991474
+ 0.27096010405712456
+ 0.3496431826833659
+ 0.025759411174863134 
+ -0.17742788160440393 
+ -0.0967554211540691 
+ 0.40952609361868064 
+ -0.37536197154672246)
+cljs꞉test꞉> 
+; Attempting to call unbound fn: #'game.app/build-particle
+cljs꞉game.app꞉> 
+({:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 20, :radius 30, :color "black", :velocity nil}, :update #object[l]})
+cljs꞉test꞉> 
+({:attributes {:x 10, :y 0.3140532557650053, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.5825655286583358, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.36235387321644397, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.8776489688566769, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.7817003077134324, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.7322914096430391, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.7877914583195542, :radius 30, :color "black", :velocity nil}, :update #object[l]}
+ {:attributes {:x 10, :y 0.1041627416590376, :radius 30, :color "black", :velocity nil}, :update #object[l]})
+cljs꞉test꞉> 
+; Map literal contains duplicate key: :alpha
+cljs꞉test꞉> 
+({:a 20, :alpha -1})
+cljs꞉test꞉> 
+({:a 10, :alpha 1})
+cljs꞉test꞉> 
+({:a 10, :alpha 1})
+cljs꞉game.app꞉> 
